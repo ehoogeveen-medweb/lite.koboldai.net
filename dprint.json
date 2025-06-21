@@ -23,7 +23,6 @@
 		"**/*-lock.json",
 		"**/*.min.css",
 		"**/*.min.js",
-		"/*.html",
 		"!/split/"
 	],
 	"plugins": [

@@ -1,0 +1,35 @@
+{
+	"lineWidth": 150,
+	"indentWidth": 4,
+	"newLineKind": "lf",
+	"useTabs": true,
+	"typescript": {
+		"commentLine.forceSpaceAfterSlashes": false,
+		"quoteProps": "asNeeded",
+		"quoteStyle": "preferDouble"
+	},
+	"json": {
+	},
+	"malva": {
+		"printWidth": 150,
+		"quotes": "preferDouble"
+	},
+	"markup": {
+		"printWidth": 300,
+		"whitespaceSensitivity": "strict"
+	},
+	"excludes": [
+		"**/node_modules",
+		"**/*-lock.json",
+		"**/*.min.css",
+		"**/*.min.js",
+		"/*.html",
+		"!/split/"
+	],
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.95.7.wasm",
+		"https://plugins.dprint.dev/json-0.20.0.wasm",
+		"https://plugins.dprint.dev/g-plane/markup_fmt-v0.21.0.wasm",
+		"https://plugins.dprint.dev/g-plane/malva-v0.12.1.wasm"
+	]
+}
